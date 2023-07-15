@@ -1,12 +1,28 @@
+body {
+  background-color: #4915f8;
+}
 .dashboard {
   display: flex;
-  background-color: #037ffc;
 }
-.top-container {
+.top_container {
+  margin: 160px 20px 0px 20px;
   display: flex;
+  align-items: flex-end;
+}
+#top_subcontainer1 {
+  /* display: flex; */
+  flex-grow: 1;
+}
+#top_subcontainer2 {
+  display: flex;
+  flex-grow: 1;
 }
 .question-container {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: auto;
 }
 .middle-container {
   display: flex;
@@ -38,7 +54,7 @@ input[type="button"] {
 #signInButton {
   color: white;
   border: none;
-  background-color: #037ffc;
+  background-color: #4915f8;
   margin-right: 10px;
 }
 
@@ -57,4 +73,57 @@ input[type="button"] {
     #f8ac27,
     #fca503
   );
+}
+#trailButton2 {
+  color: white;
+  border: none;
+  border-radius: 30px;
+  margin-top: 25px;
+  padding: 10px 40px;
+  /* source: https://mycolor.space/gradient?ori=to+right&hex=%23EFBD5F&hex2=%23FCA503&sub=1 */
+  background-image: linear-gradient(
+    to right,
+    #efbd5f,
+    #f2b84e,
+    #f5b23c,
+    #f8ac27,
+    #fca503
+  );
+}
+
+#typing_img {
+  width: 400px;
+  height: auto;
+  flex-grow: 1;
+}
+
+.text {
+  color: white;
+}
+
+#text1 {
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+}
+
+#text2 {
+  margin-top: 5px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+#text3 {
+  margin-top: 0px;
+  color: #d4d4d4;
+  font-family: ui-monospace;
+}
+
+#typing_img {
+  background-color: #037ffc;
+}
+
+#clout_img {
+  width: 250px;
+  height: auto;
 }
