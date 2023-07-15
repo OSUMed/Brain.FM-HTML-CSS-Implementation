@@ -1,48 +1,32 @@
+/*=============================== Main ============================*/
+
 body {
   background-color: #4915f8;
 }
-.dashboard {
+
+input[type="button"] {
+  cursor: pointer;
+}
+
+span {
+  font-weight: bolder;
+}
+
+/* Color of text: */
+.text {
+  color: white;
+}
+
+/*======================= DashBoard Container =======================*/
+
+/* Container: */
+
+.dashboard_container {
   display: flex;
 }
-.top_container {
-  margin: 160px 20px 0px 20px;
-  display: flex;
-  align-items: flex-end;
-}
-#top_subcontainer1 {
-  max-width: 50%;
-  flex-grow: 1;
-}
-#top_subcontainer2 {
-  max-width: 50%;
-  flex-grow: 1;
-}
-#bottom_subcontainer1 {
-  max-width: 50%;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-#bottom_subcontainer2 {
-  max-width: 50%;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.question-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 250px;
-  width: auto;
-}
-.bottom-container {
-  display: flex;
-}
+
+/* Image and Button manipulation: */
+
 #logoImg {
   width: 100px;
   height: auto;
@@ -61,10 +45,6 @@ body {
   justify-content: center;
   align-items: center;
   width: 50%;
-}
-
-input[type="button"] {
-  cursor: pointer;
 }
 
 #signInButton {
@@ -90,6 +70,26 @@ input[type="button"] {
     #fca503
   );
 }
+
+/*======================= Top Container =======================*/
+
+/* Containers: */
+.top_container {
+  margin: 160px 20px 0px 20px;
+  display: flex;
+  align-items: flex-end;
+}
+#top_subcontainer1 {
+  max-width: 50%;
+  flex-grow: 1;
+}
+#top_subcontainer2 {
+  max-width: 50%;
+  flex-grow: 1;
+}
+
+/* Buttons and Images: */
+
 #trailButton2 {
   color: white;
   border: none;
@@ -107,9 +107,18 @@ input[type="button"] {
   );
 }
 
-.text {
-  color: white;
+#clout_img {
+  width: 250px;
+  height: auto;
 }
+
+#typing_img {
+  width: 600px;
+  height: auto;
+  flex-grow: 1;
+}
+
+/* Text Formatting: */
 
 #text1 {
   font-size: 35px;
@@ -133,15 +142,65 @@ input[type="button"] {
   font-family: ui-monospace;
   max-width: 85%;
 }
-#text5 {
-  color: #d4d4d4;
-  font-family: ui-monospace;
-  max-width: 80%;
+
+/*======================= Middle Container =======================*/
+
+.question-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: auto;
 }
+
+/*======================= Bottom Container =======================*/
+
+/* Containers: */
+#bottom_subcontainer1 {
+  max-width: 50%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#bottom_subcontainer2 {
+  max-width: 50%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-container {
+  display: flex;
+}
+
+/* Images: */
+
+#brain_img {
+  width: 400px;
+  height: auto;
+  flex-grow: 1;
+}
+#study_img {
+  width: 350px;
+  height: auto;
+  flex-grow: 1;
+  padding: 35px;
+}
+
+/* Text Formatting: */
+
 #text4 {
   width: 80%;
   color: white;
   margin-bottom: 10px;
+}
+#text5 {
+  color: #d4d4d4;
+  font-family: ui-monospace;
+  max-width: 80%;
 }
 #text6 {
   width: 80%;
@@ -157,32 +216,4 @@ input[type="button"] {
   color: #d4d4d4;
   font-family: ui-monospace;
   max-width: 80%;
-}
-#typing_img {
-  width: 600px;
-  height: auto;
-  flex-grow: 1;
-}
-#typing_img {
-  background-color: #037ffc;
-}
-
-span {
-  font-weight: bolder;
-}
-
-#clout_img {
-  width: 250px;
-  height: auto;
-}
-#brain_img {
-  width: 400px;
-  height: auto;
-  flex-grow: 1;
-}
-#study_img {
-  width: 350px;
-  height: auto;
-  flex-grow: 1;
-  padding: 35px;
 }
