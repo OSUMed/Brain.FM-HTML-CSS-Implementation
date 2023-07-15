@@ -1,2 +1,2 @@
 # sri-assignment-1
-<img src="./images/video.gif" alt="My Video">
+<img src="video.gif" alt="My Video">
