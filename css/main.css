@@ -20,16 +20,24 @@ body {
 #bottom_subcontainer1 {
   max-width: 50%;
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #bottom_subcontainer2 {
   max-width: 50%;
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .question-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 300px;
+  height: 250px;
   width: auto;
 }
 .bottom-container {
@@ -104,30 +112,63 @@ input[type="button"] {
 }
 
 #text1 {
-  font-size: 20px;
+  font-size: 35px;
   font-weight: 100;
   margin-bottom: 5px;
   font-family: sans-serif;
 }
 
 #text2 {
+  font-size: 40px;
+  font-weight: 100;
   margin-top: 5px;
+  margin-bottom: 20px;
+
   font-family: sans-serif;
   font-weight: 600;
 }
 #text3 {
-  margin-top: 0px;
+  font-size: 15px;
+  color: #d4d4d4;
+  font-family: ui-monospace;
+  max-width: 85%;
+}
+#text5 {
+  color: #d4d4d4;
+  font-family: ui-monospace;
+  max-width: 80%;
+}
+#text4 {
+  width: 80%;
+  color: white;
+  margin-bottom: 10px;
+}
+#text6 {
+  width: 80%;
+  color: white;
+  border-bottom: 3px solid white;
+  padding-bottom: 3px;
+}
+#text7 {
+  width: 80%;
+  color: white;
+}
+#text8 {
   color: #d4d4d4;
   font-family: ui-monospace;
   max-width: 80%;
 }
 #typing_img {
-  width: 400px;
+  width: 600px;
   height: auto;
   flex-grow: 1;
 }
 #typing_img {
   background-color: #037ffc;
+}
+
+span {
+  font-weight: bolder;
 }
 
 #clout_img {
@@ -140,7 +181,8 @@ input[type="button"] {
   flex-grow: 1;
 }
 #study_img {
-  width: 400px;
+  width: 350px;
   height: auto;
   flex-grow: 1;
+  padding: 35px;
 }
