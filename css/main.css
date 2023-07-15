@@ -10,7 +10,7 @@ body {
   align-items: flex-end;
 }
 #top_subcontainer1 {
-  /* display: flex; */
+  max-width: 50%;
   flex-grow: 1;
 }
 #top_subcontainer2 {
@@ -117,6 +117,7 @@ input[type="button"] {
   margin-top: 0px;
   color: #d4d4d4;
   font-family: ui-monospace;
+  max-width: 80%;
 }
 
 #typing_img {
