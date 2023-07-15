@@ -1,5 +1,6 @@
 .dashboard {
   display: flex;
+  background-color: #037ffc;
 }
 .top-container {
   display: flex;
@@ -9,4 +10,51 @@
 }
 .middle-container {
   display: flex;
+}
+#logoImg {
+  width: 100px;
+  height: auto;
+  padding-bottom: 15px;
+  margin: 5px;
+}
+#logo {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+
+  padding: 10px;
+}
+#login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+input[type="button"] {
+  cursor: pointer;
+}
+
+#signInButton {
+  color: white;
+  border: none;
+  background-color: #037ffc;
+  margin-right: 10px;
+}
+
+#trailButton {
+  color: white;
+  border: none;
+  /* background-color: #fca503; */
+  border-radius: 15px;
+  padding: 10px 25px;
+  /* source: https://mycolor.space/gradient?ori=to+right&hex=%23EFBD5F&hex2=%23FCA503&sub=1 */
+  background-image: linear-gradient(
+    to right,
+    #efbd5f,
+    #f2b84e,
+    #f5b23c,
+    #f8ac27,
+    #fca503
+  );
 }
